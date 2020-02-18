@@ -14,7 +14,12 @@ main()
     
     Carro c2("Fiat", 2017);
     c2.setAno(2018);
+    
+    cout << c1.pneus << endl;
+    cout << c2.pneus << endl;
 
-    cout << c2.getMarca() << endl;
-    cout << c2.getAno() << endl;
+    c1.pneus = 2;
+    
+    cout << c1.pneus << endl;
+    cout << c2.pneus << endl;
 }

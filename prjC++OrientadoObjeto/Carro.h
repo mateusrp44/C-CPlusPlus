@@ -11,6 +11,7 @@ class Carro
         string marca;
         int ano;
     public:
+        static int pneus;
         Carro();
         Carro(string marca, int ano);
         ~Carro();
