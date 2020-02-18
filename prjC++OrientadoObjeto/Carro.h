@@ -11,6 +11,9 @@ class Carro
         string marca;
         int ano;
     public:
+        Carro();
+        Carro(string marca, int ano);
+        ~Carro();
         void setMarca(string marca);
         string getMarca();
         void setAno(int ano);
